@@ -4,3 +4,14 @@
 //listen for clicks on the increment button
 //increment the count variable when the button is clicked
 //change the count-el in HTML to reflect the new count
+//array
+let counteEl = document.getElementById("count-el")
+
+console.log(counteEl)
+
+let  count = 0;
+
+function increment() {
+   count += 1
+   console.log(count)
+}
